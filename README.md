@@ -1,4 +1,4 @@
-# Afrixcart
+# Africart
 <p>
 Integrate a fully functional cart and checkout system in any website in minutes.
 </p>
