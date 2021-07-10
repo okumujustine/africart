@@ -25,8 +25,9 @@ Integrate a fully functional cart and checkout system in any website in minutes.
 
 ### 2. Setup JavaScript 
 ```
-
 <script src="https://cdn.jsdelivr.net/gh/okumujustine/africart@latest/afrixcart.js"></script>
+
+<div id="app"></div>
 
 ```
 <p>
