@@ -5,13 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href="custom.css" rel="stylesheet">
+
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+    <div class="flex flex-wrap -m-4 mx-6 mt-10">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SPORTS</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Sneakers</h2>
+          <p class="mt-1">$16.00</p>
+          <button 
+          class="app-add-item"
+          data-item-id="1"
+          data-item-price="16.00"
+          data-item-name="Sneakers"
+          >
+          Add to cart
+        </button>
+        </div>
+      </div>
+
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">MACHINERY</h3>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Paper printer</h2>
+          <p class="mt-1">$200.10</p>
+          <button 
+          class="app-add-item"
+          data-item-id="2"
+          data-item-price="200.10"
+          data-item-name="Sticker printer"
+          >
+          Add to cart
+        </button>
+        </div>
+      </div>
+      </div>
+
+     <div id="app" data-config-modal-style="side" data-api-key="N2Y5NWVkYzctZWYxZC00MzI2LTgwY2YtMjIzZTViMWEwN2ZhNjM3NjA4Mjk1Mjg2MjcxMTIy" hidden></div>
+  
   </body>
 </html>
