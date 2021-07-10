@@ -21,7 +21,7 @@ export default {
       const itemName = newBtn.getAttribute('data-item-name')
       const itemPrice = newBtn.getAttribute('data-item-price')
       const itemId = newBtn.getAttribute('data-item-id')
-      const itemImg = "https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z"
+      const itemImg = newBtn.getAttribute('data-item-image')
 
       let productItem = {itemName, itemPrice, itemId, itemImg, itemQty: 1, itemTotalPrice:itemPrice}
 
