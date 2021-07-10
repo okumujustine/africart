@@ -40,15 +40,15 @@ Integrate a fully functional cart and checkout system in any website in minutes.
 
 ### 3. Product buttons (example below) 
 ```
-          <button 
-          class="app-add-item"
-          data-item-id="1"
-          data-item-price="16.00"
-          data-item-name="Sneakers"
-          data-item-image="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z"
-          >
-          Add to cart
-        </button>
+<button 
+    class="app-add-item"
+    data-item-id="1"
+    data-item-price="16.00"
+    data-item-name="Sneakers"
+    data-item-image="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z"
+>
+    Add to cart
+</button>
 ```
 <p>
     <b>
