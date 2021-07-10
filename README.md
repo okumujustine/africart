@@ -11,7 +11,7 @@ Integrate a fully functional cart and checkout system in any website in minutes.
 <hr/>
 <br/>
 
-### 1. Septup CSS
+### 1. Setup CSS
 
 ```
 
