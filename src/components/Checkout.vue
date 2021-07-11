@@ -17,15 +17,15 @@
         <div>
           <div class="flex flex-col mb-3">
             <label class="py-1">Name</label>
-            <input type="text" class="border px-3 py-2 focus:outline-none" placeholder="Enter name ..." />
+            <input type="text" class="border px-3 py-2 focus:outline-none" v-model="name" placeholder="Enter name ..." />
           </div>
           <div class="flex flex-col mb-3">
             <label class="py-1">Email</label>
-            <input type="email" class="border px-3 py-2 focus:outline-none" placeholder="Enter email ..." />
+            <input type="email" class="border px-3 py-2 focus:outline-none" v-model="email" placeholder="Enter email ..." />
           </div>
           <div class="flex flex-col mb-3">
             <label class="py-1">Address</label>
-            <input type="text" class="border px-3 py-2 focus:outline-none" placeholder="Enter address ..." />
+            <input type="text" class="border px-3 py-2 focus:outline-none" v-model="address" placeholder="Enter address ..." />
           </div>
            <button class="block continue-to-checkout-btn text-center" @click="continueToPayment">Continue to Payment</button>
         </div>
@@ -47,6 +47,13 @@ import CartDetails from "./CartDetails.vue"
 
 export default {
   name: 'Checkout',
+  data() {
+    return {
+      name: "",
+      email: "",
+      address: "",
+    }
+  },
   props: {
     msg: String
   },

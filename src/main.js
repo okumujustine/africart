@@ -1,4 +1,4 @@
-import './index.css'
+// import './index.css'
 
 import Vue from 'vue'
 import 'es6-promise/auto'
